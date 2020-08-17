@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style type="text/css">body{
+        background:url(https://www.tiprecords.com/wp-content/uploads/2019/04/RAJ2019.jpg);
+        display:table;
+        height:100%;
+        width:100%;
+        margin:auto;
+    }
+
+    *{
+        padding-inline-start: 0px;
+    }
+
+    #menu{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bold";
+        text-decoration: none;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background: url(https://qtxasset.com/styles/breakpoint_sm_default_480px_w/s3/fiercebiotech/1567787754/background-2747396_1280.png?za5bacvV5lnnHqxG7uJMLTlk9fB8jMN3&itok=AJz-MQ8-);
+        border-color:rgb(0, 0, 0);
+        border-style: ridge;
+
+    }
+
+    .menuid{
+        margin: 15px;
+        font: bolder 75%/125% "Liberation Mono", monospace; 
+        text-decoration: none;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    
+    #title{
+        font:bolder 75%/125% "Stencil Std", fantasy; 
+        font-weight: "bold";
+        text-shadow: 6px 6px 1px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-left: 1em;
+        margin-right: 1em;
+        background: url(https://cdn.technologynetworks.com/tn/images/thumbs/webp/640_360/the-psychedelic-revolution-in-psychiatry-333007.webp?v=10653682);
+    }
+
+    #rajastart{
+        border-radius: 50%;
+        width: 600px;
+        height: 800px;
+    }
+    
+    #legenda{
+        font:medium 100%/100% "Libeartion Mono", monospace;
+        text-shadow: 3px 3px 3px rgb(32,188,2);
+    }
+    
+    #img-div{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bold";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(238, 255, 4, 0.5);
+    }
+    
+    #img-div2{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(238, 255, 4, 0.5);
+    }
+
+    #corpo2{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(238, 255, 4, 0.5);
+    }
+    
+    #rodape{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        font-size: large;
+        background-size: cover;
+        background-image: url(rajabg2.jpg);
+        background-position-y: center;
+        margin-left: 0em;
+    }
+
+    .accordion{
+        
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  width: 1500px;
+  background: linear-gradient(170deg,rgb(44, 173, 19) 0%,rgb(255, 1, 1) 58.376743404469835%,rgb(0, 17, 255) 68.77275527922478%,#dc8 100%);
+  border-radius: 012px;
+  border: 02px solid #ff3c00;
+  border-width: 02px 02px 02px 02px;
+  padding: 015px 015px 015px 015px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+    color: #004bff;
+  font-size: 040px;
+  font-family: Comic Sans MS;
+  font-weight: bolder;
+  font-style: normal;
+  text-shadow: 2px 2px 2px black;
+  }
+
+    
+
+    #imagens{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(238, 255, 4, 0.5);
+    }
+
+    #legendaimg{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: xx-large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(238, 255, 4, 0.5);
+    }
+    
+    .pictures{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-size: large;
+        margin-right: 1em;
+        margin-left: 1em;
+        white-space: nowrap;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #date1{
+        font:bolder 75%/125% "Liberation Mono", monospace; 
+        font-weight: "bolder";
+        text-shadow: 3px 3px 3px rgb(255, 255, 255);
+        font-size: large;
+        margin-right: 1em;
+        margin-left: 1em;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body align="center" >
+    <main id="main">
+        <strong>
+                <section>
+                    
+                    <nav id="menu">
+                        <ul>
+                            <a href="#imagens"><font class="menuid" color="yellow">Imagens</font></a>
+                            <a href="#title"><font class="menuid" color="yellow">Sobre</font></a>
+                            <a href="#img-div"><font class="menuid" color="yellow">Linha do Tempo</font></a>
+                            <a href="#img-div2"><font class="menuid" color="yellow">Principais Projetos</font></a>
+                        </ul>
+                    </nav>
+                </font>
+                </section>
+<header>
+        <section id="title">
+        <font color="white" size ="2000px">
+        <h1  class ="rajaraja" id="rajaforfans"> <strong>Raja Ram</strong></h1>
+        <h4><strong> Essa é uma página dedicada a curiosidades sobre
+        o maior personagem da história da música eletrônica, não só criador
+        mas também uma lenda viva no cenário. Responsável por mais de 350 faixas
+        e mais de 10 projetos ao longo de sua carreira.
+        </strong></h4>
+    </font>
+    </section>
+</header>
+
+    <figure>
+        <img class="change" id="rajastart" width ="300px" height= "500px"  src="https://psytranceeventsworldwide.files.wordpress.com/2018/10/raja1.jpg?w=723" alt="Raja Ram">
+        <figcaption id="legenda"> <font color="yellow">Raja Ram</font></figcaption>
+    </figure>
+     
+    <section id="img-div">
+        <font color="blue">
+         <h1>Sobre Raja Ram</h1>
+        <div> 
+            <h2> 
+            Dj Renomado e criador da música eletrônica
+            </h2>
+        </div>
+        <div>
+            
+                <h3>
+                Linha Do Tempo
+                </h3>
+            
+            
+                <p>
+                       1941 - Raja Ram ou Ronald Rothfield nascer (Melbourne, Australia) 
+                <br>   1964 - Muda-se para a Inglaterra, já consolidado como DJ e músico 
+                <br>   1970's - Parte da Banda Quintessence, renomado artista no Rock Psicodélico.
+                <br>   1990's - Descoberta da Música Eletrônica e criação do "The Infinity Project"
+                <br>   1994 - Lançamento da Gravadora "The Inifinity Project - TIP".
+                </p>
+            
+        </div>
+        <div>
+            
+                <h3>
+                    Linha do Tempo dos Álbuns
+                </h3>
+            
+            
+                <p>
+                    2000 - Spaceships Of The Imagination.
+                <br>2002 -  Raja Ram's Stash Bag.
+                <br>2003 - Raja Ram's Stash Bag Volume 2.
+                <br>2004 - Raja Ram's Stash Bag Vol. 3 - Smokers Jokers and Midnight Tokers.
+                <br>2004 - Raja Ram's Stash Bag Vol. 3 - Smokers Jokers and Midnight Tokers (Unmixed Edition).
+                <br>2005 - Most Wanted Presents: Raja Ram the Godfather.
+                <br>2006 - Evolution Of Expanded Consciousness.
+                <br>2006 - Raja Ram's Stash Bag Volume 4.
+                <br>2007 - The Anthology.
+                <br>2014 - Raja Ram's Stash Bag Volume 5.
+                </p>
+            
+        </div>
+    </font>
+    </section>
+        <font color="blue">
+    <section id="img-div2" align="center">
+            <h1>Principais Projetos</h1>
+            
+            <ul>
+            <div aling="center">
+                
+                    
+                <button
+                aria-expanded="false"
+                aria-controls="select1"
+                id="1200"
+                class ="accordion">
+                1200 Micrograms<span class="expander down"></span>
+                </button>
+                <figure><img widht ="900px" height ="600px" src="https://www.tiprecords.com/promo/JuiceEp/1200Mics_them.png" alt=" foto do projeto 1200 micrograms">
+                    <p id="1200" role="1200m" aria-labelledby="1200">
+                    <aria-labelledby>1200 micrograms sem dúvida são um dos líderes mundiais do psytrance.
+                    A combinação do projeto GMS (Growling Mad Scientists) que é 
+                    formado pela dupla Bansi Quinteros & Riktam Matkin com Raja Ram e 
+                    seu amigo Chicago se originou o famoso projeto 1200 micrograms.
+                </aria-labelledby></p>
+                </figure>
+                
+            
+            </div>
+            
+
+            <div aling="center">
+               
+                   
+                   <button 
+                   aria-expanded="false"
+                   aria-controls="select1"
+                   id="Shpongle"
+                   class="accordion">
+                   Shpongle<span class="expander down"></span>
+                   </button>
+                   
+                   <figure>
+                       <img src="https://lostinsound.org/wp-content/uploads/2013/07/600526_10151462675273946_2021654707_n.jpg" alt="foto do projeto shpongle">
+                       <p id="Shpongle" role="Shpongle" aria-labelledby="Shpongle">
+                       <aria-labelledby>A primeira gravação do Shpongle, Vapour Rumours, 
+                       foi lançada como parte de uma compilação 
+                       chamada Infinite Excursions - Softer Psychedelic Sounds, 
+                       em 1996. Já seu primeiro álbum, o Are You Shpongled?,
+                       foi lançado em 1998 pela Twisted Records, 
+                       mesma gravadora do CODEX VI.
+                    </aria-labelledby></p>
+                    </figure>
+                   
+                
+                <div aling="center">
+                    
+                    <button 
+                    aria-expanded="false"
+                    aria-controls="select1"
+                    class="accordion"
+                    id="The Infinity Project">
+                    The Infinity Project
+                    </button>
+                
+                    <figure>
+                        <img width="800px" height= "800px" src="https://pbs.twimg.com/profile_images/783405289/tip_shiva_gold.jpg" alt="foto The infinity Project">
+                        <p id="The Infinity Project" role="The Infinity Project" aria-labelledby="The infinity Project">
+                        </aria-labelledby>The Infinity Project foi uma banda de goa trance da década 
+                        de 1990, e mais tarde tornou-se uma gravadora, a TIP 
+                        Records, em grande parte responsável pela introdução do 
+                        trance em Londres e no Reino Unido. Os membros incluíam 
+                        Raja Ram, Graham Wood e Anjee Sian, com Simon Posford 
+                        (Shpongle) ocasionalmente.
+                    </aria-labelledby></p>
+                    </figure>
+                
+                    
+                
+
+                </ul>
+            </div>
+        </section>
+            <section id="imagens">
+                <h1>
+                    <font color="blue">
+                    Imagens
+                </font>
+            </h1>
+                <div class="pictures">
+                 <figure>
+                     <img width="1500px" height="800px" src="https://content2.jdmagicbox.com/events/A283830/A283830_abn_20180111135526_nm.jpg" alt="raja">
+                     <figcaption>Raja Ram usando a camisa do projeto 1200 micrograms</figcaption>
+                 </figure>
+            </div>
+            <div>
+                <figure class="pictures">
+                    <img width="1500px" height="800px" src="https://i.pinimg.com/originals/c1/f6/e5/c1f6e5007f70dbdbed782bb1ae5a8127.jpg" alt="raja2">
+                    <figcaption> O projeto Shpongle</figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure class="pictures">
+                    <img  width="1500px" height="800px" src="https://res.cloudinary.com/trancentral/image/upload/h_584,w_770/v1508873047/10506855_10152684539133185_8866298048161539858_o_thk10x.jpg" alt="raja3">
+                    <figcaption>Raja Ram em seu Projeto "The Infinity Project"</figcaption>
+                </figure>
+            </div>
+    </section>
+</font>
+</strong>
+</main>
+</font>
+      <footer align ="center">
+        <section id= "rodape">
+               <h3><font color="white">Redes Socais do Artista</font></h3>
+           <div>
+               <img width="15px" height="15px" src="https://image.flaticon.com/icons/svg/1384/1384063.svg" alt="img insta" >
+               <a href ="https://www.instagram.com/raja_rams_tip_records/?hl=pt-br" alt="Instagram" target =_blank>
+                Instagram
+               </a>
+            </div>
+           <div>
+               <img width="15px" height="15px" src ="https://image.flaticon.com/icons/svg/889/889102.svg" alt= "img face" >
+               <a href ="https://www.facebook.com/raja.ram.tip" alt= "Facebook" target =_blank>
+                Facebook
+               </a>
+            </div>
+           <div>
+               <img width="15px" height="15px" src ="https://image.flaticon.com/icons/svg/174/174883.svg" alt=" img youtube" >
+               <a href ="https://www.youtube.com/channel/UCXf5LnTUOI9z6ntYHoK4QuA" alt="Linkedin" target =_blank>
+                Youtube
+            </a>
+        </div>
+        <div>
+            <font color= "white">
+            <p id="date1">data</p></font>
+        </div>
+        </section>
+       </footer>
+
+</html>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var expanders = document.getElementsByClassName("expander");
+    var i;
+
+    for (i=0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function(){
+
+            var panel = this.nextElementSibling;
+
+            if (panel.style.display === "block"){
+                panel.style.display ="none";
+                this.setAttribute('aria-expanded', 'false')
+                
+                //expander icon
+                this.firstElementChild.classList.remove('up')
+                this.firstElementChild.classList.add('down')
+            }
+            else {
+                panel.style.display = "block";
+
+                this.setAttribute('aria-expanded', 'true')
+                //expander icon
+                this.firstElementChild.add('up')
+            }
+        });
+    }
+</script>
+
+<script>							 
+           
+           var raja = document.getElementsByClassName('change');
+               raja[0].addEventListener("click", click);
+               raja[1].addEventListener("click", click);
+
+            function click(){
+            var img1 = 'https://psytranceeventsworldwide.files.wordpress.com/2018/10/raja1.jpg?w=723';
+            var img2 = 'https://lh3.googleusercontent.com/proxy/5COAOVeN1bs9KR0ft-ul7cvBxRI1rx5zeIGuidbZreetfForZomBoLxJ3Xx0xhOysctcogWLrMx0VfcF2-eVeh4ytQXRPEGFzJ_9Bja7UcbB4sSqd8BSiOu_0QnGnA';
+            var element = document.getElementById('rajastart');
+                if(element.src === img1){
+                    element.src = img2;
+                }
+                else if(element.src === img2){
+                    element.src = img1;
+  }
+}
+</script>
+<script>
+          window.onload = function (){
+              document.getElementById('date1').innerHTML = new Date().toLocaleString();
+          }
+</script>
+<script>
+            let titulo = document.getElementById('rajaforfans');
+            titulo.onclick = function mudar(){
+                if(titulo.textContent == 'Raja Ram'){
+                   titulo.textContent = "Uma Lenda Viva";
+                }
+                else {
+                    titulo.textContent = "Raja Ram";
+                }
+                
+            } 
+</script>
+</body>
